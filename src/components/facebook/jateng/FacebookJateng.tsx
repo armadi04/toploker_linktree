@@ -212,10 +212,10 @@ const FacebookJateng = () => {
               rel="noopener noreferrer"
               className="flex items-center justify-between p-4 bg-gray-800/80 backdrop-blur-sm rounded-xl hover:bg-gray-700 transition-all duration-300 group"
             >
-              <FaFacebook className="text-2xl text-cyan-500 group-hover:text-cyan-400 transition-colors duration-300" />
+              <FaFacebook className="flex-shrink-0 text-2xl text-cyan-500 group-hover:text-cyan-400 transition-colors duration-300" />
               <div className="flex flex-col items-center justify-center">
                 <h3 className="text-gray-200 font-medium">{account.name}</h3>
-                <p className="flex text-sm text-gray-400">{account.username}</p>
+                <p className="text-sm text-gray-400">{account.username}</p>
               </div>
               <FaFacebook className="text-2xl text-cyan-500 group-hover:text-cyan-400 transition-colors duration-300" />
             </a>
