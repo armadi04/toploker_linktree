@@ -116,7 +116,7 @@ const FacebookSosmed = () => {
         className="w-full max-w-2xl flex flex-col items-center justify-center gap-4 px-4 mx-auto mb-6"
       >
         <a
-          href="https://www.facebook.com/OfficialPageToplokercom"
+          href="https://www.facebook.com/profile.php?id=61576351543148"
           target="_blank"
           rel="noopener noreferrer"
           className="w-full flex items-center justify-between p-6 bg-gray-800/80 backdrop-blur-sm rounded-xl hover:bg-gray-700 transition-all duration-300 group"
