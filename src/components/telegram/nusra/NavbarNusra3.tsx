@@ -1,8 +1,9 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Button } from "../../../components/ui/button";
-import { Search, ArrowLeft } from "lucide-react";
+import { Search } from "lucide-react";
 import { nusraLinks } from "./TelegramNusra";
 import { FaTelegram } from "react-icons/fa";
+import { IoChevronBack } from "react-icons/io5";
 
 const NavbarNusra3: React.FC = () => {
   const [searchActive, setSearchActive] = useState(false);
@@ -52,7 +53,7 @@ const NavbarNusra3: React.FC = () => {
               className="text-md font-bold p-auto pl-2 rounded-[8px] text-white bg-slate-800/60 hover:bg-gray-900 hover:text-blue-600 flex items-center gap-1 -ml-4"
               onClick={() => window.history.back()}
             >
-              <ArrowLeft className="h-5 w-5" />
+              <IoChevronBack className="h-5 w-5" />
               BACK
             </Button>
 
@@ -121,7 +122,7 @@ const NavbarNusra3: React.FC = () => {
         {selectedAccount && (
           <div ref={accountRef} className="mt-4 px-4">
             <h3 className="text-lg font-bold text-white">
-              Akun Instagram Terkait
+              Akun Telegram Terkait
             </h3>
             <div className="flex items-center gap-4 mt-2 p-4 bg-gray-800/80 rounded-xl shadow-lg">
               <FaTelegram className="text-2xl text-cyan-500 group-hover:text-cyan-400 transition-colors duration-300" />

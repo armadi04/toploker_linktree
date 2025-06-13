@@ -1,8 +1,9 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Button } from "../../../components/ui/button";
 import { BiLogoInstagram } from "react-icons/bi";
-import { Search, ArrowLeft } from "lucide-react";
+import { Search } from "lucide-react";
 import { nusraLinks } from "./InstagramNusra";
+import { IoChevronBack } from "react-icons/io5";
 
 const NavbarNusra1: React.FC = () => {
   const [searchActive, setSearchActive] = useState(false);
@@ -52,7 +53,7 @@ const NavbarNusra1: React.FC = () => {
               className="text-md font-bold p-auto pl-2 rounded-[8px] text-white bg-slate-800/60 hover:bg-gray-900 hover:text-blue-600 flex items-center gap-1 -ml-4"
               onClick={() => window.history.back()}
             >
-              <ArrowLeft className="h-5 w-5" />
+              <IoChevronBack className="h-5 w-5" />
               BACK
             </Button>
 

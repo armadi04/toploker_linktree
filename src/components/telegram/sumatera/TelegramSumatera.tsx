@@ -70,11 +70,6 @@ export const sumateraLinks: telegramLink[] = [
     link: "https://t.me/lokerbungobangkotop",
   },
   {
-    name: "Jambi",
-    username: "@lokerjambitop",
-    link: "https://t.me/lokerjambitop",
-  },
-  {
     name: "Sumatera Utara",
     username: "@lokersumuttop",
     link: "https://t.me/lokersumuttop",
@@ -98,6 +93,31 @@ export const sumateraLinks: telegramLink[] = [
     name: "Banda Aceh",
     username: "@lokerbandaacehtop",
     link: "https://t.me/lokerbandaacehtop",
+  },
+  {
+    name: "Riau",
+    username: "@lokerriautop",
+    link: "https://t.me/lokerriautop",
+  },
+  {
+    name: "Kepulauan Riau",
+    username: "@lokerkepritop",
+    link: "https://t.me/lokerkepritop",
+  },
+  {
+    name: "Pekanbaru",
+    username: "@lokerpkutop",
+    link: "https://t.me/lokerpkutop",
+  },
+  {
+    name: "Dumai",
+    username: "@lokerdumaitop",
+    link: "https://t.me/lokerdumaitop",
+  },
+  {
+    name: "Batam",
+    username: "@lokerbatamtop",
+    link: "https://t.me/lokerbatamtop",
   },
 ];
 
