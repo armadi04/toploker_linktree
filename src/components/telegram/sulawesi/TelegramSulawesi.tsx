@@ -46,8 +46,8 @@ export const sulawesiLinks: TelegramLink[] = [
   },
   {
     name: "Palu dan Luwuk",
-    username: "@lokerpaluwuktop",
-    link: "https://t.me/lokerpaluwuktop",
+    username: "@lokerpaluuwuktop",
+    link: "https://t.me/lokerpaluuwuktop",
   },
   {
     name: "Sulawesi Utara",

@@ -71,8 +71,8 @@ export const sulawesiLinks: InstagramLink[] = [
   },
   {
     name: "Sulawesi Utara",
-    username: "@infolokersulut.top",
-    link: "https://instagram.com/infolokersulut.top",
+    username: "@lokersulut.top",
+    link: "https://instagram.com/lokersulut.top",
   },
   {
     name: "Gorontalo",
