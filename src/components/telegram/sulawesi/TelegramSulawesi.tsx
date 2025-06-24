@@ -79,6 +79,11 @@ export const sulawesiLinks: TelegramLink[] = [
     username: "@lokermanadotop",
     link: "https://t.me/lokermanadotop",
   },
+  {
+    name: "Mamuju",
+    username: "@lokermamujuutop",
+    link: "https://t.me/lokermamujuutop",
+  },
 ];
 
 const TelegramSulawesi = () => {

@@ -110,6 +110,11 @@ export const kalimantanLinks: TelegramLink[] = [
     link: "https://t.me/lokerkaltaratop",
   },
   {
+    name: "Tarakan",
+    username: "@lokertarakanntop",
+    link: "https://t.me/lokertarakanntop",
+  },
+  {
     name: "Kaltim",
     username: "@lokerkaltimtop",
     link: "https://t.me/lokerkaltimtop",

@@ -30,6 +30,11 @@ export const sumateraLinks: telegramLink[] = [
     link: "https://t.me/lokerpayakumbuhtop",
   },
   {
+    name: "Bukittinggi",
+    username: "@lokerbukittinggi_top",
+    link: "https://t.me/lokerbukittinggi_top",
+  },
+  {
     name: "Sumatera Selatan",
     username: "@lokersumseltop",
     link: "https://t.me/lokersumseltop",
@@ -86,8 +91,8 @@ export const sumateraLinks: telegramLink[] = [
   },
   {
     name: "Aceh",
-    username: "@lokeracehtop",
-    link: "https://t.me/lokeracehtop",
+    username: "@lokeraceh_top",
+    link: "https://t.me/lokeraceh_top",
   },
   {
     name: "Banda Aceh",
